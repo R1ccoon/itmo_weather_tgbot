@@ -12,9 +12,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.utils.markdown import hbold
 
 # Bot token
-TOKEN = '5914681142:AAFz6D3bxgN77N-_GyugbsDEU7U86UtfWY8'
-API_KEY_WEATHER = '3250e945-fe18-483c-b9cd-64739ae20b3e'
-API_KEY_GEOCODER = '5f501b63-28dc-47a7-ad50-d449ead41042'
+TOKEN = 'BOT_TOKEN'
+API_KEY_WEATHER = 'API'
+API_KEY_GEOCODER = 'API'
 # All handlers should be attached to the Router (or Dispatcher)
 dp = Dispatcher()
 builder = ReplyKeyboardBuilder()
